@@ -1,0 +1,6 @@
+service:
+  enable_tls: false # Disable TLS as Caddy handles it
+  api_key: "123"
+tls:
+  cert: /qdrant/config/cert.pem
+  key: /qdrant/config/key.pem
